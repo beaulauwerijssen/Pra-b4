@@ -65,7 +65,7 @@ nav a:hover {
 
 .hero {
     background: linear-gradient(rgba(135, 206, 235, 0.3), rgba(173, 216, 230, 0.3)), 
-                url('fotos/achtbaan.png');
+                url('fotos/achtergrond/achtbaan.png');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;

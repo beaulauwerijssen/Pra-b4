@@ -9,7 +9,7 @@
 <body>
     <header>
         <div class="header-container">
-            <a href="/" class="logo">📷 Fotogalerij</a>
+            <a href="/" class="logo">Fotogalerij</a>
             <nav>
                 <a href="/">Home</a>
                 <a href="/gallery.php">Fotogalerij</a>
@@ -22,7 +22,7 @@
     <main>
         <section class="hero">
             <div class="hero-content">
-                <h1>(Foto als achtergrond)</h1>
+                <h1>Fotogalerij</h1>
                 <p>Ontdek onze mooiste fotocollecties</p>
                 <a href="/gallery.php" class="explore-btn">Explore</a>
             </div>
@@ -35,8 +35,6 @@
         <p>&copy; 2026 Fotogalerij. Alle rechten voorbehouden.</p>
         <p>
             <a href="/contact.php">Contact</a>
-            <a href="/privacy.php">Privacy</a>
-            <a href="/terms.php">Voorwaarden</a>
         </p>
     </footer>
 </body>

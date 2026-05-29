@@ -1,36 +1,43 @@
-<?php
-session_start();
-?>
-<!doctype html>
-<html class="html-home" lang="nl">
-
+<!DOCTYPE html>
+<html lang="nl">
 <head>
-    <title>Homepage | Pretpark Webapp</title>
-    <?php require_once 'head.php'; ?>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fotogalerij - Home</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-
-<?php require_once 'header.php'; ?>
-<body class="home-body">
-    
-    <div class="wrapper">
-        <div class="h1_homepage">
-            <h1>Welkom bij de Pretpark Webapp</h1>
+<body>
+    <header>
+        <div class="header-container">
+            <a href="/" class="logo">📷 Fotogalerij</a>
+            <nav>
+                <a href="/">Home</a>
+                <a href="/gallery.php">Fotogalerij</a>
+                <a href="/contact.php">Contact</a>
+                <span class="cart-icon">🛒</span>
+            </nav>
         </div>
-        
-    </div>
+    </header>
 
-    <div class="wrapper-main">
-        <div class="container-home">
-            <div class="container">
-                <p>Dit is onze pretpark site waar je je eigen taken kan aanpassen of aanmaken!</p>
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h1>(Foto als achtergrond)</h1>
+                <p>Ontdek onze mooiste fotocollecties</p>
+                <a href="/gallery.php" class="explore-btn">Explore</a>
             </div>
-        </div>
-    </div>
+        </section>
 
-    >
+        
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Fotogalerij. Alle rechten voorbehouden.</p>
+        <p>
+            <a href="/contact.php">Contact</a>
+            <a href="/privacy.php">Privacy</a>
+            <a href="/terms.php">Voorwaarden</a>
+        </p>
+    </footer>
 </body>
-<footer>
-        <p>&copy; Hannes | Milan | Ruben | Timothy</p>
-</footer>
-
 </html>
